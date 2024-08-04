@@ -36,5 +36,5 @@ def add_users(users: List[dict]):
         db.close()
 
 if __name__ == "__main__":
-    users = generate_random_users(5)
+    users = generate_random_users(15)
     add_users(users)
